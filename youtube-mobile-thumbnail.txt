@@ -1,5 +1,5 @@
-m.youtube.com##DISABLEytm-thumbnail-cover > .video-thumbnail-img
 m.youtube.com##a.media-item-thumbnail-container
+m.youtube.com##DISABLEytm-thumbnail-cover > .video-thumbnail-img
 m.youtube.com##DISABLEytm-thumbnail-cover:style(height:30px)
 m.youtube.com##TODOytm-video-with-context-renderer.feed-item:style(margin-bottom:0px;)
 m.youtube.com##TODOytm-media-item .details:style(margin-bottom:0px;)
