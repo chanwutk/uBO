@@ -4,3 +4,4 @@ m.youtube.com##DISABLEytm-thumbnail-cover:style(height:30px)
 m.youtube.com##TODOytm-video-with-context-renderer.feed-item:style(margin-bottom:0px;)
 m.youtube.com##TODOytm-media-item .details:style(margin-bottom:0px;)
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
+m.youtube.com##ytm-reel-shelf-renderer
