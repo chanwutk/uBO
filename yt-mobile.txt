@@ -21,8 +21,8 @@ m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
 m.youtube.com##ytm-pivot-bar-item-renderer > div > c3-icon
 m.youtube.com##ytm-pivot-bar-item-renderer > div > avatar-view-model
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
-m.youtube.com##ytm-pivot-bar-renderer:style(height:20px)
-m.youtube.com##ytm-pivot-bar-item-renderer:style(height:20px)
+m.youtube.com##ytm-pivot-bar-renderer:style(height:30px)
+m.youtube.com##ytm-pivot-bar-item-renderer:style(height:30px)
 m.youtube.com##ytm-pivot-bar-item-renderer div.pivot-bar-item-title:style(padding:5px)
 
 # you page
