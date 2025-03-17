@@ -2,11 +2,8 @@
 m.youtube.com##a.media-item-thumbnail-container
 # channel thumbnail
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
-m.youtube.com##DISABLEytm-thumbnail-cover > .video-thumbnail-img
-m.youtube.com##DISABLEytm-thumbnail-cover:style(height:30px)
-m.youtube.com##TODOytm-media-item .details:style(margin-bottom:0px;)
-m.youtube.com##ytm-video-with-context-renderer:style(margin-bottom:5px)
-m.youtube.com##ytm-video-with-context-renderer>ytm-media-item:style(margin-bottom:5px)
+m.youtube.com##ytm-thumbnail-cover > .video-thumbnail-img
+m.youtube.com##ytm-thumbnail-cover:style(height:30px)
 
 # shorts
 m.youtube.com##ytm-reel-shelf-renderer
