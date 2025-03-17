@@ -23,7 +23,7 @@ m.youtube.com##ytm-pivot-bar-item-renderer > div > avatar-view-model
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 m.youtube.com##ytm-pivot-bar-renderer:style(height:30px)
 m.youtube.com##ytm-pivot-bar-item-renderer:style(height:30px)
-m.youtube.com##ytm-pivot-bar-item-renderer div.pivot-bar-item-title:style(padding:5px)
+m.youtube.com##ytm-pivot-bar-item-renderer div.pivot-bar-item-title:style(margin:5px)
 
 # you page
 m.youtube.com##a.video-card-image
