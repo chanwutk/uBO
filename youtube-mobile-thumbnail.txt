@@ -13,3 +13,4 @@ m.youtube.com##a.playlist-card-image
 m.youtube.com##ytm-compact-link-renderer[href="/premium"]
 m.youtube.com##shorts-video
 m.youtube.com##drawer-layout-container
+m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]
