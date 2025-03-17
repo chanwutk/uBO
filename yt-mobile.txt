@@ -22,3 +22,4 @@ m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 m.youtube.com##a.video-card-image
 m.youtube.com##a.playlist-card-image
 m.youtube.com##ytm-compact-link-renderer:has(a[href="/premium"])
+m.youtube.com##yt-page-header-view-model yt-decorated-avatar-view-model
