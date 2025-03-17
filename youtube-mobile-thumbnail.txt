@@ -5,3 +5,11 @@ m.youtube.com##TODOytm-video-with-context-renderer.feed-item:style(margin-bottom
 m.youtube.com##TODOytm-media-item .details:style(margin-bottom:0px;)
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer
+m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
+m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+m.youtube.com##a.video-card-image
+m.youtube.com##a.playlist-card-image
+m.youtube.com##ytm-compact-link-renderer[href="/premium"]
+m.youtube.com##shorts-video
+m.youtube.com##drawer-layout-container
