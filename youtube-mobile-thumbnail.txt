@@ -7,6 +7,8 @@ m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
+m.youtube.com##ytm-pivot-bar-item-renderer > div > c3-icon
+m.youtube.com##ytm-pivot-bar-item-renderer > div > avatar-view-model
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 m.youtube.com##a.video-card-image
 m.youtube.com##a.playlist-card-image
