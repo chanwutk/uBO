@@ -5,8 +5,8 @@ m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 
 # shorts
 m.youtube.com##ytm-reel-shelf-renderer
-m.youtube.com##ytm-rich-section-renderer
-m.youtube.com##shorts-video
+m.youtube.com##DISABLEDytm-rich-section-renderer
+m.youtube.com##DISABLEDshorts-video
 
 # chip bar (top)
 m.youtube.com##drawer-layout-container
@@ -14,15 +14,16 @@ m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_C
 
 # pivot bar (bottom)
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
-m.youtube.com##ytm-pivot-bar-item-renderer > div > c3-icon
-m.youtube.com##ytm-pivot-bar-item-renderer > div > avatar-view-model
+m.youtube.com##DISABLEDytm-pivot-bar-item-renderer > div > c3-icon
+m.youtube.com##DISABLEDytm-pivot-bar-item-renderer > div > avatar-view-model
+
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 
 # you page
 m.youtube.com##a.video-card-image
 m.youtube.com##a.playlist-card-image
-m.youtube.com##ytm-compact-link-renderer:has(a[href="/premium"])
 m.youtube.com##yt-page-header-view-model yt-decorated-avatar-view-model
 m.youtube.com##yt-flexible-actions-view-model
+m.youtube.com##ytm-compact-link-renderer:has(a[href="/premium"])
 m.youtube.com##ytm-compact-link-renderer:has(a[href~="/feed/"])
 m.youtube.com##ytm-compact-link-renderer:has(a[href~="https://support.google.com/youtube"])
