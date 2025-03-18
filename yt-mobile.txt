@@ -4,8 +4,8 @@ m.youtube.com##a.media-item-thumbnail-container
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 
 # shorts
-m.youtube.com##ytm-reel-shelf-renderer
-m.youtube.com##DISABLEDytm-rich-section-renderer
+m.youtube.com##DISABLEDytm-reel-shelf-renderer
+m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##DISABLEDshorts-video
 
 # chip bar (top)
