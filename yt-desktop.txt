@@ -1,0 +1,10 @@
+www.youtube.com###avatar-container
+www.youtube.com##ytd-rich-section-renderer
+www.youtube.com##ytd-rich-item-renderer:remove-attr(is-in-first-column)
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("Explore"))
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("More from YouTube"))
+www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:contains("Shorts"))
+www.youtube.com##div#header:has(ytd-feed-filter-chip-bar-renderer)
+www.youtube.com###voice-search-button
+www.youtube.com###attached-survey
+www.youtube.com###contents:style(padding-top: 0)
