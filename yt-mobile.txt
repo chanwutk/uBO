@@ -8,9 +8,9 @@ m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##DISABLEDshorts-video
 
-# # chip bar (top)
-# m.youtube.com##drawer-layout-container
-# m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]
+# chip bar (top)
+m.youtube.com##drawer-layout-container
+m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]
 
 # pivot bar (bottom)
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
