@@ -8,4 +8,7 @@ www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:contains("Shor
 www.youtube.com##div#header:has(ytd-feed-filter-chip-bar-renderer)
 www.youtube.com###voice-search-button
 www.youtube.com###attached-survey
-www.youtube.com###contents:style(padding-top: 0)
+www.youtube.com###frosted-glass:style(height: 50px !important)
+www.youtube.com###contents:style(padding-top: 0px !important)
+www.youtube.com##ytd-thumbnail
+www.youtube.com###thumbnail
