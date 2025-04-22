@@ -1,6 +1,7 @@
 www.youtube.com###avatar-container
 www.youtube.com##ytd-rich-section-renderer
 www.youtube.com##ytd-rich-item-renderer:remove-attr(is-in-first-column)
+www.youtube.com##ytd-rich-item-renderer:style(margin-bottom: 0px !important;)
 www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("Explore"))
 www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("More from YouTube"))
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:contains("Shorts"))
