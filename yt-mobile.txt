@@ -1,6 +1,6 @@
 # video thumbnail
 m.youtube.com##a.media-item-thumbnail-container
-m.youtube.com##ytm-video-with-context-renderer:style(margin-bottom: 0px !important)
+m.youtube.com##ytm-video-with-context-renderer:style(margin: 0px !important)
 m.youtube.com##ytm-video-with-context-renderer div.details:style(margin: 0px !important)
 # channel thumbnail
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
