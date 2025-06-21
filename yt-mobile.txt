@@ -4,6 +4,7 @@ m.youtube.com##ytm-video-with-context-renderer:style(margin: 0px !important; -we
 m.youtube.com##ytm-video-with-context-renderer div.details:style(margin: 0px !important; -webkit-margin-before: 0px !important; -webkit-margin-after: 0px !important; -webkit-margin-begin: 0px !important; -webkit-margin-end: 0px !important;)
 # channel thumbnail
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
+m.youtube.com##ytm-rich-item-renderer:has(ad-slot-renderer)
 
 # shorts
 m.youtube.com##ytm-reel-shelf-renderer
