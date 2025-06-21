@@ -19,7 +19,7 @@ m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_C
 # pivot bar (bottom)
 m.youtube.com##ytm-pivot-bar-item-renderer:has(div.pivot-shorts)
 m.youtube.com##DISABLEDytm-pivot-bar-item-renderer > div > c3-icon
-m.youtube.com##ytm-pivot-bar-item-renderer > div > avatar-view-model
+m.youtube.com##DISABLEDytm-pivot-bar-item-renderer > div > avatar-view-model
 
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 
