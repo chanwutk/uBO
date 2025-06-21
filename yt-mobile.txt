@@ -11,6 +11,7 @@ m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##DISABLEDshorts-video
 
 # chip bar (top)
+m.youtube.com##.rich-grid-renderer-header
 m.youtube.com##drawer-layout-container
 m.youtube.com##ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"]
 
