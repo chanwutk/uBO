@@ -1,14 +1,32 @@
-www.youtube.com###avatar-container
 www.youtube.com##ytd-rich-section-renderer
 www.youtube.com##ytd-rich-item-renderer:remove-attr(is-in-first-column)
 www.youtube.com##ytd-rich-item-renderer:style(margin-bottom: 0px !important;)
-www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("Explore"))
-www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("More from YouTube"))
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:contains("Shorts"))
 www.youtube.com##div#header:has(ytd-feed-filter-chip-bar-renderer)
 www.youtube.com###voice-search-button
 www.youtube.com###attached-survey
 www.youtube.com###frosted-glass:style(height: 50px !important)
 www.youtube.com###contents:style(padding-top: 0px !important)
+
+# Left Panel
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("Explore"))
+www.youtube.com##ytd-guide-section-renderer:has(yt-formatted-string:contains("More from YouTube"))
+
+# Thumbnail
 www.youtube.com##ytd-thumbnail
 www.youtube.com###thumbnail
+www.youtube.com##ytd-rich-grid-media div#thumbnail-underlay
+www.youtube.com###avatar-container
+
+# Entry Header Spacing
+www.youtube.com##ytd-rich-grid-media div#meta h3:style(margin-bottom: 0px !important;)
+
+# Live Badge
+www.youtube.com##ytd-badge-supported-renderer div[aria-label="LIVE"]:style(height: 1px !important; width: 100% !important;)
+www.youtube.com##ytd-badge-supported-renderer div[aria-label="LIVE"] yt-icon
+www.youtube.com##ytd-badge-supported-renderer div[aria-label="LIVE"] p
+
+# Combine Channel title and # of views to one line
+www.youtube.com##ytd-video-meta-block div#metadata:style(flex-direction: row !important;)
+www.youtube.com##ytd-video-meta-block div#metadata div#byline-container:style(padding-right: 10px !important; border-right: 1px solid lightgrey !important;)
+www.youtube.com##ytd-video-meta-block div#metadata div#metadata-line:style(padding-left: 10px !important;)
