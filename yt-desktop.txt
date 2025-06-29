@@ -33,3 +33,6 @@ www.youtube.com##ytd-video-meta-block div#metadata div#metadata-line:style(paddi
 
 # Playlist (Mix)
 www.youtube.com##yt-lockup-view-model a:has(yt-collection-thumbnail-view-model)
+
+# Popup
+www.youtube.com##ytd-popup-container
