@@ -30,6 +30,10 @@ www.youtube.com##ytd-badge-supported-renderer div[aria-label="LIVE"] p
 www.youtube.com##ytd-video-meta-block div#metadata:style(flex-direction: row !important;)
 www.youtube.com##ytd-video-meta-block div#metadata div#byline-container:style(padding-right: 10px !important; border-right: 1px solid lightgrey !important;)
 www.youtube.com##ytd-video-meta-block div#metadata div#metadata-line:style(padding-left: 10px !important;)
+# Combine Channel title and # of views to one line (for Mix)
+www.youtube.com##yt-content-metadata-view-model:style(flex-direction: row !important;)
+www.youtube.com##yt-content-metadata-view-model div:first:style(padding-right: 10px !important; border-right: 1px solid lightgrey !important;)
+www.youtube.com##yt-content-metadata-view-model div:last:style(padding-left: 10px !important;)
 
 # Playlist (Mix)
 www.youtube.com##yt-lockup-view-model a:has(yt-collection-thumbnail-view-model)
