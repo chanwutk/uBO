@@ -44,3 +44,6 @@ m.youtube.com##ytm-compact-link-renderer:has(a[href~="https://support.google.com
 
 # feedback
 m.youtube.com##div.feed-nudge-wrapper:has(ytm-feed-nudge-renderer)
+
+# search
+m.youtube.com##div.ytSearchboxComponentVoiceSearchWrapper
