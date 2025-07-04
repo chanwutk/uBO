@@ -11,6 +11,9 @@ m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##DISABLEDshorts-video
 
+# top bar
+m.youtube.com###home-icon svg g:first-child
+
 # chip bar (top)
 m.youtube.com##.rich-grid-renderer-header
 m.youtube.com##drawer-layout-container
