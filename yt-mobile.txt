@@ -5,6 +5,12 @@ m.youtube.com##ytm-video-with-context-renderer div.details:style(margin: 0px !im
 # channel thumbnail
 m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 m.youtube.com##ytm-rich-item-renderer:has(ad-slot-renderer)
+# stack
+m.youtube.com##ytm-radio-renderer:style(margin-bottom: 0px !important;)
+m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked:style(margin-bottom: 5px !important;)
+m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked > div.media-item-info:style(margin-left: 0px !important;)
+m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked > div.media-item-info > div.media-item-metadata:style(margin-top: 0px !important;)
+
 
 # shorts
 m.youtube.com##ytm-reel-shelf-renderer
