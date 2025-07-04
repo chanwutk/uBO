@@ -12,7 +12,7 @@ m.youtube.com##ytm-rich-section-renderer
 m.youtube.com##DISABLEDshorts-video
 
 # top bar
-m.youtube.com##c3-icon#home-icon > span > div > svg > g:first-child
+m.youtube.com##c3-icon#home-icon > span > div > svg > g
 
 # chip bar (top)
 m.youtube.com##.rich-grid-renderer-header
