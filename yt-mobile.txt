@@ -7,9 +7,9 @@ m.youtube.com##.media-channel ytm-channel-thumbnail-with-link-renderer
 m.youtube.com##ytm-rich-item-renderer:has(ad-slot-renderer)
 # stack
 m.youtube.com##ytm-radio-renderer:style(margin-bottom: 0px !important;)
-m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked:style(margin-bottom: 5px !important;)
+m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked:style(margin-bottom: 0px !important;)
 m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked > div.media-item-info:style(margin-left: 0px !important;)
-m.youtube.com##ytm-radio-renderer > ytm-media-item > div.details.stacked > div.media-item-info > div.media-item-metadata:style(margin-top: 0px !important;)
+m.youtube.com##DISABLEytm-radio-renderer > ytm-media-item > div.details.stacked > div.media-item-info > div.media-item-metadata:style(margin-top: 0px !important;)
 
 
 # shorts
@@ -41,3 +41,6 @@ m.youtube.com##yt-flexible-actions-view-model
 m.youtube.com##ytm-compact-link-renderer:has(a[href="/premium"])
 m.youtube.com##ytm-compact-link-renderer:has(a[href~="/feed/"])
 m.youtube.com##ytm-compact-link-renderer:has(a[href~="https://support.google.com/youtube"])
+
+# feedback
+m.youtube.com##div.feed-nudge-wrapper:has(ytm-feed-nudge-renderer)
