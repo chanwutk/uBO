@@ -19,6 +19,7 @@ m.youtube.com##DISABLEDshorts-video
 
 # top bar
 m.youtube.com##c3-icon#home-icon > span > div > svg > g
+m.youtube.com##.frosted-glass:style(background-color: black !important; backdrop-filter: none !important; -webkit-backdrop-filter: none !important)
 
 # chip bar (top)
 m.youtube.com##.rich-grid-renderer-header
