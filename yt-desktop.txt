@@ -18,7 +18,7 @@ www.youtube.com###DISABLEthumbnail
 www.youtube.com##DISABLEytd-rich-grid-media div#thumbnail-underlay
 www.youtube.com###DISABLEavatar-container
 www.youtube.com##a.yt-lockup-view-model__content-image
-www.youtube.com##a.yt-lockup-metadata-view-model__avatar
+www.youtube.com##div.yt-lockup-metadata-view-model__avatar
 
 # Entry Header Spacing
 www.youtube.com##ytd-rich-grid-media div#meta h3:style(margin-bottom: 0px !important;)
