@@ -17,6 +17,7 @@ www.youtube.com##ytd-thumbnail
 www.youtube.com###thumbnail
 www.youtube.com##ytd-rich-grid-media div#thumbnail-underlay
 www.youtube.com###avatar-container
+www.youtube.com##a.yt-lockup-view-model__content-image
 
 # Entry Header Spacing
 www.youtube.com##ytd-rich-grid-media div#meta h3:style(margin-bottom: 0px !important;)
