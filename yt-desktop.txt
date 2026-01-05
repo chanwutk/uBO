@@ -20,6 +20,9 @@ www.youtube.com###DISABLEavatar-container
 www.youtube.com##a.yt-lockup-view-model__content-image
 www.youtube.com##div.yt-lockup-metadata-view-model__avatar
 
+# Hover feedback
+www.youtube.com##yt-touch-feedback-shape
+
 # Entry Header Spacing
 www.youtube.com##ytd-rich-grid-media div#meta h3:style(margin-bottom: 0px !important;)
 
