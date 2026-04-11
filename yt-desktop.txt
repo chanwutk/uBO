@@ -21,6 +21,9 @@ www.youtube.com##a.yt-lockup-view-model__content-image
 www.youtube.com##div.yt-lockup-metadata-view-model__avatar
 www.youtube.com##a.ytLockupViewModelContentImage
 
+# Thumbnail: Channel Image
+www.youtube.com##div.ytLockupMetadataViewModelAvatar
+
 # Hover feedback
 www.youtube.com##yt-touch-feedback-shape
 
