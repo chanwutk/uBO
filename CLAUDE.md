@@ -49,14 +49,15 @@ Run `inspect-dom.py` to re-confirm — YouTube changes these.
 | Surface (a video in the feed/search) | mobile `m.youtube.com` | desktop `www.youtube.com` |
 | --- | --- | --- |
 | Video card container | `ytm-video-with-context-renderer` (home grid wraps it in `ytm-rich-item-renderer`) | `ytd-rich-item-renderer`, `yt-lockup-view-model` |
-| Video **thumbnail** | `a.media-item-thumbnail-container` (legacy) | `a.ytLockupViewModelContentImage`, `a.yt-lockup-view-model__content-image` |
-| Creator **avatar** | `ytm-channel-thumbnail-with-link-renderer` | `.ytLockupMetadataViewModelAvatar`, `.yt-lockup-metadata-view-model__avatar` |
+| Video **thumbnail** | `a.media-item-thumbnail-container` (legacy), `.ytLockupViewModelContentImage`, `.yt-lockup-view-model__content-image`, `.yt-lockup-view-model-wiz__content-image` | `a.ytLockupViewModelContentImage`, `a.yt-lockup-view-model__content-image` |
+| Creator **avatar** | `ytm-channel-thumbnail-with-link-renderer` (legacy), `.ytLockupMetadataViewModelAvatar`, `.yt-lockup-metadata-view-model__avatar`, `.yt-lockup-metadata-view-model-wiz__avatar` | `.ytLockupMetadataViewModelAvatar`, `.yt-lockup-metadata-view-model__avatar` |
 | Title / metadata (keep visible) | `.details` / `.media-item-details` | `#meta`, `yt-content-metadata-view-model` |
 
 **Lockup migration:** desktop is fully on `lockup-view-model`; mobile is mid-rollout (the served HTML
 carries flags like `mweb_enable_lockup_view_model_*`). When mobile flips, `media-item-thumbnail-container`
-disappears and the lockup classes appear. That's why `yt-mobile.txt` lists **both** the legacy selector
-and the lockup ones — the rule survives the switch. Keep doing this when adding new mobile rules.
+and `ytm-channel-thumbnail-with-link-renderer` can disappear and the lockup/wiz classes appear. That's
+why `yt-mobile.txt` lists **both** legacy selectors and lockup/wiz selectors — the rules survive the
+switch. Keep doing this when adding new mobile rules.
 
 ## How to find a selector (the workflow I used)
 
